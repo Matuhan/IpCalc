@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_cost_new">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ocen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/ocen"
+            android:textSize="18sp"
+            android:layout_alignParentLeft="true" />
+
+        <EditText
+            android:id="@+id/ocenin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:hint="@string/vv"
+            android:inputType="number|numberDecimal"
+            android:textSize="18sp"
+            android:layout_alignParentEnd="true"
+            />
+
+        <TextView
+            android:id="@+id/poshl"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/poshl"
+            android:textSize="18sp"
+            android:layout_below="@id/ocen"
+            />
+
+        <EditText
+            android:id="@+id/poshlin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/vv"
+            android:inputType="number|numberDecimal"
+            android:textSize="18sp"
+            android:layout_below="@id/ocen"
+            android:layout_alignParentEnd="true"
+            />
+
+        <TextView
+            android:id="@+id/elreg"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/elreg"
+            android:textSize="18sp"
+            android:layout_below="@id/poshl"
+            />
+
+        <EditText
+            android:id="@+id/elregin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/vv"
+            android:inputType="number|numberDecimal"
+            android:textSize="18sp"
+            android:layout_below="@id/poshl"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/strah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/strah"
+            android:textSize="18sp"
+            android:layout_below="@id/elreg"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/strahin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/vv"
+            android:inputType="number|numberDecimal"
+            android:textSize="18sp"
+            android:layout_below="@id/elreg"
+            android:layout_alignParentEnd="true"
+            />
+
+        <Button
+            android:id="@+id/obras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/obras"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/strah"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/obrasin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="32dp"
+            android:hint="@string/it"
+            android:inputType="number|numberDecimal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/strah"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/psih"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/psih"
+            android:textSize="18sp"
+            android:layout_below="@id/obras"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/psihin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="32dp"
+            android:hint="@string/vv"
+            android:inputType="number|numberDecimal"
+            android:textSize="18sp"
+            android:layout_below="@id/obras"
+            android:layout_alignParentEnd="true"
+            />
+
+        <TextView
+            android:id="@+id/notar"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/notar"
+            android:textSize="18sp"
+            android:layout_below="@id/psih"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/notarin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/vv"
+            android:inputType="number|numberDecimal"
+            android:textSize="18sp"
+            android:layout_below="@id/psih"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/kombank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/kombank"
+            android:textSize="18sp"
+            android:layout_below="@id/notar"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/kombankin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/vv"
+            android:inputType="number|numberDecimal"
+            android:textSize="18sp"
+            android:layout_below="@id/notar"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/uslip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/uslip"
+            android:textSize="18sp"
+            android:layout_below="@id/kombank"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/uslipin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/vv"
+            android:inputType="number|numberDecimal"
+            android:textSize="18sp"
+            android:layout_below="@id/kombank"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/proch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/proch"
+            android:textSize="18sp"
+            android:layout_below="@id/uslip"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/prochin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/vv"
+            android:inputType="number|numberDecimal"
+            android:textSize="18sp"
+            android:layout_below="@id/uslip"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/vozm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/vozm"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/proch"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/vozmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="32dp"
+            android:hint="@string/it"
+            android:inputType="number|numberDecimal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/proch"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/vsego"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/vsego"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_below="@id/vozm"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/vsegoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="32dp"
+            android:hint="@string/it"
+            android:inputType="number|numberDecimal"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_below="@id/vozm"
+            android:layout_alignParentEnd="true" />
+        </RelativeLayout>>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/butt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/newcount"
+            android:onClick="clickButt4"/>
+
+        <Button
+            android:id="@+id/butt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/costs" />
+
+        <Button
+            android:id="@+id/butt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/banks"
+            android:onClick="clickButt6"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

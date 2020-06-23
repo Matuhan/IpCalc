@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">IpCalc</string>
+    <string name="stob">Стоимость объекта</string>
+    <string name="perv">Первначальный взнос</string>
+    <string name="srok">Срок ипотеки</string>
+    <string name="stav">Процентная ставка</string>
+    <string name="result">Ежемесячный платеж</string>
+    <string name="vvedstob">Введите стоимость объекта</string>
+    <string name="vvedperv">Введите первоначальный взнос</string>
+    <string name="vvsrok">Укажите срок ипотеки</string>
+    <string name="proc">Укажите процентную ставку</string>
+    <string name="count">Рассчитать</string>
+    <string name="newcount">Новый расчет</string>
+    <string name="costs">Расходы</string>
+    <string name="banks">Ставки банков</string>
+    <string name="pl">Платеж</string>
+    <string name="cred">Сумма кредита</string>
+    <string name="ocen">Изготовление отчета об оценке</string>
+    <string name="poshl">Государственная регистрация ипотеки (госпошлина)</string>
+    <string name="elreg">Электронная регистрация, выездная, МФЦ</string>
+    <string name="strah">Страхование жизни и здоровья</string>
+    <string name="obras">Обязательные расходы</string>
+    <string name="psih">Справки из психоневрологического и наркологического диспансера от продавцов (если возраст продавца более 65 лет)</string>
+    <string name="notar">Нотариальные услуги (брачный договор, согласие, заявление)</string>
+    <string name="kombank">Комиссии банка</string>
+    <string name="uslip">Услуги отдела ипотеки</string>
+    <string name="vsego">ВСЕГО РАСХОДЫ</string>
+    <string name="vozm">Возможные расходы</string>
+    <string name="proch">Прочие расходы</string>
+    <string name="vv">ВВОД</string>
+    <string name="it">ИТОГ</string>
+    <string name="matkap">Материнский капитал</string>
+</resources>
